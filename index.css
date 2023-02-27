@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Nanum+Gothic&family=Permanent+Marker&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Nanum Gothic";
+}
+
+body {
+    background-color: rgb(58 19 112 / 31%);
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrap {
+    width: 700px;
+    background-color: #f9f9f9;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    color: #55188da8;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 530px;
+    margin: 0 auto;
+    border: 1px solid #a492b570;
+    border-bottom: none;
+    background-color: white;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px 30px 50px;
+}
+
+.header_box {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #a492b570;
+}
+
+.header_box>input {
+    height: 45px;
+    width: 439px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.header_box>button {
+    float: right;
+    line-height: 45px;
+}
+
+.list_box:first-child {
+    border-top: 1px solid #a492b570;
+}
+
+.list_box {
+    height: 45px;
+    border-bottom: 1px solid #a492b570;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name_active {
+    text-decoration: line-through;
+    color: #d5d0df;
+    font-style: italic;
+}
+
+/* .list_box:last-child{
+  border:none;
+} */
+.check_box {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    border: 1px solid #9855d770 !important;
+    margin-right: 10px !important;
+    font-size: 13px !important;
+}
+
+.list_name {
+    font-weight: 600;
+    width: 380px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* .list_box:last-child {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+} */
+.footer_button_box>button {
+    border: 2px solid #eeeeee;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#active_button {
+    border: 2px solid #bfb5d0;
+}
+
+.todo_info {
+    padding: 30px 0 50px;
+    box-sizing: border-box;
+    color: #d5d0df;
+    font-weight: 600;
+}
+
+.footer {
+    width: 530px;
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #a492b570;
+    border-top: none;
+    display: flex;
+    /* background: pink; */
+    height: 55px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.clear_button{cursor: pointer;}
+/* #todo_input {
+  font-weight: 600;
+  width: 380px;
+  box-sizing: border-box;
+  text-align: left;
+} */
