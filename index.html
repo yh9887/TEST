@@ -24,9 +24,9 @@
         <div class="footer">
             <div class="count">0 items left</div>
             <div class="footer_button_box">
-                <button id="active_button" type="button">All</button>
-                <button type="button">Active</button>
-                <button type="button">Completed</button>
+                <input class="info_button " id="active_button" type="button" onclick="listPopup(this)" value="All">
+                <input class="info_button" type="button" onclick="listPopup(this)" value="Active">
+                <input class="info_button" type="button" onclick="listPopup(this)" value="Completed">
             </div>
             <div class="clear_button" onclick="listClear()">Clear Completed</div>
         </div>
